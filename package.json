@@ -1,0 +1,10 @@
+{
+  "name": "com.deftsoft.org.jack.reader",
+  "version": "1.0.0",
+  "description": "This is used for reading data from the 3.5 mm headphone jack magnetic card reader",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Sunil Kumar",
+  "license": "MIT"
+}
