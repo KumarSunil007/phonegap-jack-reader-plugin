@@ -10,7 +10,7 @@ Create a button in HTML file.
 ```
 
 
-## To read card data use following following function ( use jquery libaray as well) : 
+## To read card data use following following function ( use jQuery as well) : 
 
     jQuery('#swipe-btn').click(function(){
       com.deftsoft.org.jack.reader.JackReader.ReadCard(SwipeResult);
@@ -18,11 +18,14 @@ Create a button in HTML file.
     
     
     function SwipeResult(resp){
-		    if(resp.card_number){
-           console.log('Card Number:'+ resp.card_number +'\nExpiry Month:'+ resp.expiry_month +'\nExpiry Year:'+ resp.expiry_year);
-        }else{
-        console.log('Error: Card not swiped successfully');
-        }
+	    if(resp.card_number){
+		console.log('Card Number:'+ resp.card_number +
+			    '\nExpiry Month:'+ resp.expiry_month +
+			    '\nExpiry Year:'+ resp.expiry_year
+			    );
+		}else{
+			console.log('Error: Card not swiped successfully');
+		}
     }
     
 If you have any problem related to plugin Integration please let me know.    
