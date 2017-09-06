@@ -1,4 +1,4 @@
-package com.deftsoft.org.jack.reader;
+package com.betasoft.org.jack.reader;
 
 public class CardResult {
 

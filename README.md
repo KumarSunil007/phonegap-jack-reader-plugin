@@ -26,6 +26,18 @@ Create a button in HTML file.
 		}else{
 			console.log('Error: Card not swiped successfully');
 		}
+		
+		// IOS 
+		resp =resp[0];
+		if(typeof(resp) == "object"){
+		console.log('Card Number:'+ resp.card_number +
+			    '\nExpiry Month:'+ resp.expiry_month +
+			    '\nExpiry Year:'+ resp.expiry_year
+			    );
+		}else{
+			console.log('Error: Card not swiped successfully');
+		}
+		
     }
     
 If you have any problem related to plugin Integration please let me know.    
