@@ -13,7 +13,7 @@ Create a button in HTML file.
 ## To read card data use following following function ( use jQuery as well) : 
 
     jQuery('#swipe-btn').click(function(){
-      com.deftsoft.org.jack.reader.JackReader.ReadCard(SwipeResult);
+      com.betasoft.org.jack.reader.JackReader.ReadCard(SwipeResult);
     }
     
     
